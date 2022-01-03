@@ -22,7 +22,7 @@
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:text="Bot Message"
-            android:id="@+id/User_TV"
+            android:id="@+id/Bot_TV"
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:padding="3dp"
