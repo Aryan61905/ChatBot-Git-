@@ -8,6 +8,6 @@ public interface RetrofitAPI {
 
     @GET
     Call<MsgModel> getMessage(@Url String url);
-    
+
 
 }
