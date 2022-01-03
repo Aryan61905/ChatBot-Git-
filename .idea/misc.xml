@@ -4,7 +4,8 @@
     <option name="filePathToZoomLevelMap">
       <map>
         <entry key="..\:/Users/Aryan/Desktop/ChatBot(GIT)/app/src/main/res/layout/activity_main.xml" value="0.2" />
-        <entry key="..\:/Users/Aryan/Desktop/ChatBot(GIT)/app/src/main/res/layout/user_msg_rv_item.xml" value="0.2" />
+        <entry key="..\:/Users/Aryan/Desktop/ChatBot(GIT)/app/src/main/res/layout/bot_msg_rv_item.xml" value="0.264" />
+        <entry key="..\:/Users/Aryan/Desktop/ChatBot(GIT)/app/src/main/res/layout/user_msg_rv_item.xml" value="0.264" />
       </map>
     </option>
   </component>

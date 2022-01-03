@@ -10,7 +10,7 @@
 
 
     <color name="background_color">#3c5b91</color>
-    <color name="bot_background_color">#c94904</color>
+    <color name="bot_background_color">#6545d9</color>
     <color name="user_background_color">#035fa1</color>
     <color name="fab_color">#378fb3</color>
 </resources>

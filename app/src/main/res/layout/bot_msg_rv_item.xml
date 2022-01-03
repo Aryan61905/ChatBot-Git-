@@ -3,9 +3,9 @@
     android:layout_width="wrap_content"
     android:layout_height="wrap_content"
     xmlns:app="http://schemas.android.com/apk/res-auto"
-    android:layout_gravity="end"
+    android:layout_gravity="start"
     android:layout_margin="5dp"
-    app:cardBackgroundColor="@color/user_background_color"
+    app:cardBackgroundColor="@color/bot_background_color"
     android:elevation="8dp"
     app:cardCornerRadius="8dp">
     <LinearLayout
@@ -13,27 +13,23 @@
         android:layout_height="wrap_content"
         android:orientation="horizontal"
         >
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_margin="10dp"
+            android:src="@drawable/ic_bot"/>
         <TextView
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="User Message"
+            android:text="Bot Message"
             android:id="@+id/User_TV"
             android:layout_margin="5dp"
             android:layout_gravity="center"
             android:padding="3dp"
             android:textColor="@color/white"/>
-        <ImageView
-            android:layout_width="30dp"
-            android:layout_height="30dp"
-            android:layout_margin="10dp"
-            android:src="@drawable/ic_user"/>
+
 
 
     </LinearLayout>
-
-
-
-
-
 
 </androidx.cardview.widget.CardView>
