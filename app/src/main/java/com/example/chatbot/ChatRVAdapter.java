@@ -46,6 +46,19 @@ public class ChatRVAdapter extends RecyclerView.Adapter {
                 break;
             case "bot":
                 ((BotViewHolder)holder).botMSgTv.setText(chatsModel.getMessage());
+                break;
+        }
+    }
+
+    @Override
+    public int getItemViewType(int position) {
+        switch (chatsModelArrayList.get(position).getSender()){
+            case "user":
+                return 0;
+            case "bot":
+                return 1;
+            default:
+                return -1;
         }
     }
 

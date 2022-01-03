@@ -70,14 +70,14 @@ public class MainActivity extends AppCompatActivity {
             public void onResponse(Call<MsgModel> call, Response<MsgModel> response) {
                 if (response.isSuccessful()){
                     MsgModel model = response.body();
-                    chatsModelArrayList.add(new ChatsModel((model.getCnt(),BOT_KEY));
+                    chatsModelArrayList.add(new ChatsModel(model.getCnt(),BOT_KEY));
                     chatRVAdapter.notifyDataSetChanged();
                 }
             }
 
             @Override
             public void onFailure(Call<MsgModel> call, Throwable t) {
-                chatsModelArrayList.add(new ChatsModel(message"ERROR 05 - TRY A DIFFERENT STATEMENT",BOT_KEY));
+                chatsModelArrayList.add(new ChatsModel("ERROR 05 - TRY A DIFFERENT STATEMENT",BOT_KEY));
                 chatRVAdapter.notifyDataSetChanged();
 
             }
